@@ -1,5 +1,6 @@
 # bank-loan-analysis
 Beginner data analysis project using Python
+
 👋 À propos
 
 Bienvenue sur mon portfolio GitHub de Data Analyst junior.

@@ -4,7 +4,7 @@ Beginner data analysis project using Python
 👋 À propos
 
 Bienvenue sur mon portfolio GitHub de Data Analyst junior.
-Je suis actuellement en reconversion professionnelle et une alternance dans le domaine de la data.
+Je suis actuellement en reconversion professionnelle et recherche une alternance dans le domaine de la data.
 
 Ce repository présente des projets simples d’analyse de données visant à démontrer ma capacité à :
 
@@ -16,6 +16,7 @@ analyser et visualiser les résultats,
 
 tirer des insights exploitables.
 
+
 🎯 Objectif du portfolio
 
 Mettre en pratique les bases de l’analyse de données
@@ -23,6 +24,7 @@ Mettre en pratique les bases de l’analyse de données
 Construire un portfolio lisible pour les recruteurs
 
 Montrer ma progression en tant que Data Analyst débutant
+
 
 📁 Projets
 🏦 Bank Personal Loan Modelling
@@ -41,11 +43,13 @@ Visualisations pour identifier des tendances
 
 Premiers insights business
 
+
 Dataset :
 
 Source : Hugging Face
 
 Nom : Bank Personal Loan Modelling
+
 
 🛠️ Outils & technologies
 

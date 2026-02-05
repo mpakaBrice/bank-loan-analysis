@@ -1,71 +1,36 @@
 # bank-loan-Analysis
 
-👋 À propos
 
-Bienvenue sur mon portfolio GitHub de Data Analyst junior.
-Je suis actuellement en reconversion professionnelle et recherche une alternance dans le domaine de la data.
+🎯 Problématique
+La banque All-Life Bank possède une base de clients dont la majorité sont des déposants (épargnants). L'année dernière, la banque a mené une campagne qui a permis de convertir plus de 9% des clients en souscripteurs de prêts personnels.
 
-Ce repository présente des projets simples d’analyse de données visant à démontrer ma capacité à :
+La problématique centrale de ce dataset :
 
-comprendre un jeu de données,
+Comment une banque peut-elle identifier, parmi ses clients épargnants, ceux qui sont les plus susceptibles de souscrire à un prêt personnel, afin d'optimiser l'efficacité de ses campagnes marketing ?
+L'objectif de ce projet est de construire un modèle prédictif pour identifier les futurs clients ayant une forte probabilité de souscrire à un prêt, afin de mieux cibler les efforts marketing et d'optimiser le budget de prospection.
 
-nettoyer et préparer les données,
+📂 Présentation des Données
+Le dataset contient les informations de 5 000 clients. Chaque ligne représente un client avec ses caractéristiques démographiques et sa relation avec la banque.
 
-analyser et visualiser les résultats,
-
-tirer des insights exploitables.
-
-
-🎯 Objectif du portfolio
-
-Mettre en pratique les bases de l’analyse de données
-
-Construire un portfolio lisible pour les recruteurs
-
-Montrer ma progression en tant que Data Analyst débutant
-
-
-📁 Projets
-🏦 Bank Personal Loan Modelling
-
-Analyse d’un jeu de données bancaire afin de comprendre les facteurs influençant la souscription à un prêt personnel.
-
-Étapes principales :
-
-Exploration et compréhension des données
-
-Nettoyage des données
-
-Analyse statistique
-
-Visualisations pour identifier des tendances
-
-Premiers insights business
+Dictionnaire des variables
+| Colonne | Description | Type |
+| :--- | :--- | :---: |
+| **ID** | Identifiant unique du client | Numérique |
+| **Age** | Âge du client (en années) | Numérique |
+| **Experience** | Années d'expérience professionnelle | Numérique |
+| **Income** | Revenu annuel (en milliers de $) | Numérique |
+| **ZIP Code** | Code postal du domicile | Catégoriel |
+| **Family** | Taille de la famille du client | Numérique |
+| **CCAvg** | Dépense moyenne mensuelle sur carte de crédit ($) | Numérique |
+| **Education** | Niveau d'études (1: Bachelor, 2: Graduate, 3: Prof.) | Catégoriel |
+| **Mortgage** | Valeur de l'hypothèque immobilière ($) | Numérique |
+| **Personal Loan** | Le client a-t-il accepté le prêt ? (**Cible**) | Binaire (0/1) |
+| **Securities Account** | Possède un compte-titres ? | Binaire (0/1) |
+| **CD Account** | Possède un certificat de dépôt ? | Binaire (0/1) |
+| **Online** | Utilise les services bancaires en ligne ? | Binaire (0/1) |
+| **CreditCard** | Utilise une carte de crédit All-Life Bank ? | Binaire (0/1) |
 
 
-Dataset :
-
-Source : Hugging Face
-
-Nom : Bank Personal Loan Modelling
-
-
-🛠️ Outils & technologies
-
-Langage : Python
-
-Librairies :
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-📈 Niveau
-
-👶 Débutant
 
 🔄 Reconversion professionnelle
 

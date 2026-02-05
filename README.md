@@ -31,6 +31,31 @@ Dictionnaire des variables
 | **CreditCard** | Utilise une carte de crédit All-Life Bank ? | Binaire (0/1) |
 
 
+🛠️ Étapes de l'Analyse
+
+Nettoyage (Data Cleaning) :
+
+Vérifier les valeurs manquantes.
+
+Corriger les valeurs aberrantes (ex: l'expérience négative présente dans ce dataset).
+
+Analyse Exploratoire (EDA) :
+
+Quelle est la distribution des revenus selon l'acceptation du prêt ?
+
+Le niveau d'éducation influence-t-il la décision ?
+
+Visualisation : Utilisation de Seaborn et Matplotlib pour identifier les corrélations.
+
+🚀 Comment utiliser ce projet
+
+git clone https://github.com/mpakaBrice/bank-loan-analysis.git
+
+pandas, seaborn, matplotlib, scikit-learn.
+
+Le dataset est accessible directement via l'URL Hugging Face.
+
+Les difficultés
 
 🔄 Reconversion professionnelle
 

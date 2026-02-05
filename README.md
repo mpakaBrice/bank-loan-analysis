@@ -1,13 +1,22 @@
 # bank-loan-Analysis
 
+📌 Contexte & Problématique Business
+La banque All-Life Bank souhaite transformer ses clients déposants (comptes épargne) en clients emprunteurs. Lors de la dernière campagne, le taux de conversion n'était que de 9.6%.
 
-🎯 Problématique
-La banque All-Life Bank possède une base de clients dont la majorité sont des déposants (épargnants). L'année dernière, la banque a mené une campagne qui a permis de convertir plus de 9% des clients en souscripteurs de prêts personnels.
+Ma mission : Construire un modèle de classification permettant d'identifier les clients ayant la plus forte probabilité d'accepter un prêt personnel.
 
-La problématique centrale de ce dataset :
+L'objectif final : Optimiser le budget marketing en ciblant les bons profils et augmenter le taux de transformation global.
 
-Comment une banque peut-elle identifier, parmi ses clients épargnants, ceux qui sont les plus susceptibles de souscrire à un prêt personnel, afin d'optimiser l'efficacité de ses campagnes marketing ?
-L'objectif de ce projet est de construire un modèle prédictif pour identifier les futurs clients ayant une forte probabilité de souscrire à un prêt, afin de mieux cibler les efforts marketing et d'optimiser le budget de prospection.
+📈 Enjeux du Projet
+
+Optimisation du ROI : Réduire les coûts de prospection en ne ciblant que les profils à fort potentiel.
+
+Performance Commerciale : Augmenter le taux de conversion (actuellement à 9,6%).
+
+Expérience Client : Éviter la sollicitation inutile des clients non intéressés pour préserver l'image de la banque.
+
+Aide à la Décision : Fournir une analyse claire des facteurs qui influencent la souscription (Revenus, Éducation, Niveau d'endettement).
+
 
 📂 Présentation des Données
 Le dataset contient les informations de 5 000 clients. Chaque ligne représente un client avec ses caractéristiques démographiques et sa relation avec la banque.
@@ -30,9 +39,14 @@ Dictionnaire des variables
 | **Online** | Utilise les services bancaires en ligne ? | Binaire (0/1) |
 | **CreditCard** | Utilise une carte de crédit All-Life Bank ? | Binaire (0/1) |
 
+🛠️ Défis Techniques & Solutions :
 
-🛠️ Étapes de l'Analyse
+Nettoyage des données incohérentes
+Le défi : La colonne Experience contient des valeurs négatives, ce qui est physiquement impossible.
 
+Ma solution : remplacement par la valeur par 0 plutôt que de supprimer la lignes, afin de conserver la taille de l'échantillon.
+
+⚙️ Étapes de l'Analyse 
 Nettoyage (Data Cleaning) :
 
 Vérifier les valeurs manquantes.
@@ -47,16 +61,13 @@ Le niveau d'éducation influence-t-il la décision ?
 
 Visualisation : Utilisation de Seaborn et Matplotlib pour identifier les corrélations.
 
-🚀 Comment utiliser ce projet
+Technologies Utilisées
+Langage : Python
 
-git clone https://github.com/mpakaBrice/bank-loan-analysis.git
+Librairies : Pandas (Traitement), Seaborn/Matplotlib (Visualisation).
 
-pandas, seaborn, matplotlib, scikit-learn.
 
-Le dataset est accessible directement via l'URL Hugging Face.
+💡 Résultats & Recommandations
+Facteurs d'influence : Le Revenu annuel et le Niveau d'étude sont les deux prédicteurs les plus puissants.
 
-Les difficultés
-
-🔄 Reconversion professionnelle
-
-🚀 Motivé et en apprentissage continu
+Recommandation Business : Focaliser les campagnes sur les clients ayant un revenu > $100k et un niveau d'étude "Graduate" ou "Professional".

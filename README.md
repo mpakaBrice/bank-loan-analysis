@@ -3,11 +3,14 @@
 📌 Contexte & Problématique Business:
 
 
+
+
 La banque All-Life Bank souhaite transformer ses clients déposants (comptes épargne) en clients emprunteurs. Lors de la dernière campagne, le taux de conversion n'était que de 9.6%.
 
 Ma mission : Construire un modèle de classification permettant d'identifier les clients ayant la plus forte probabilité d'accepter un prêt personnel.
 
 L'objectif final : Optimiser le budget marketing en ciblant les bons profils et augmenter le taux de transformation global.
+
 
 📈 Enjeux du Projet
 
@@ -18,9 +21,11 @@ Performance Commerciale : Augmenter le taux de conversion (actuellement à 9,6%)
 Expérience Client : Éviter la sollicitation inutile des clients non intéressés pour préserver l'image de la banque.
 
 Aide à la Décision : Fournir une analyse claire des facteurs qui influencent la souscription (Revenus, Éducation, Niveau d'endettement).
-
-
+<br>
+<br>
 📂 Présentation des Données
+<br>
+<br>
 Le dataset contient les informations de 5 000 clients. Chaque ligne représente un client avec ses caractéristiques démographiques et sa relation avec la banque.
 
 Dictionnaire des variables
@@ -40,14 +45,17 @@ Dictionnaire des variables
 | **CD Account** | Possède un certificat de dépôt ? | Binaire (0/1) |
 | **Online** | Utilise les services bancaires en ligne ? | Binaire (0/1) |
 | **CreditCard** | Utilise une carte de crédit All-Life Bank ? | Binaire (0/1) |
-
+<br>
+<br>
 🛠️ Défis Techniques & Solutions :
-
+<br>
+<br>
 Nettoyage des données incohérentes
+<br>
 Le défi : La colonne Experience contient des valeurs négatives, ce qui est physiquement impossible.
-
 Ma solution : remplacement par la valeur par 0 plutôt que de supprimer la lignes, afin de conserver la taille de l'échantillon.
-
+<br>
+<br>
 ⚙️ Étapes de l'Analyse 
 Nettoyage (Data Cleaning) :
 
@@ -67,8 +75,8 @@ Technologies Utilisées
 Langage : Python
 
 Librairies : Pandas (Traitement), Seaborn/Matplotlib (Visualisation).
-
-
+<br>
+<br>
 💡 Résultats & Recommandations
 Facteurs d'influence : Le Revenu annuel et le Niveau d'étude sont les deux prédicteurs les plus puissants.
 

@@ -1,6 +1,8 @@
 # bank-loan-Analysis
 
-📌 Contexte & Problématique Business
+📌 Contexte & Problématique Business:
+
+
 La banque All-Life Bank souhaite transformer ses clients déposants (comptes épargne) en clients emprunteurs. Lors de la dernière campagne, le taux de conversion n'était que de 9.6%.
 
 Ma mission : Construire un modèle de classification permettant d'identifier les clients ayant la plus forte probabilité d'accepter un prêt personnel.

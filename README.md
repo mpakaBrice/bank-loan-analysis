@@ -61,7 +61,8 @@ Nettoyage (Data Cleaning) :
 
 Vérifier les valeurs manquantes.
 
-Corriger les valeurs aberrantes (ex: l'expérience négative présente dans ce dataset).
+- **Correction des anomalies :** Identification de valeurs négatives dans la colonne `Experience` (remplacées par 0)
+- **Vérification des types :** Conversion des variables catégorielles (`Education`) pour faciliter l'analyse.
 
 Analyse Exploratoire (EDA) :
 

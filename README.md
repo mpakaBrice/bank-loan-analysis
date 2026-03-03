@@ -65,10 +65,15 @@ Vérifier les valeurs manquantes.
 - **Vérification des types :** Conversion des variables catégorielles (`Education`) pour faciliter l'analyse.
 
 Analyse Exploratoire (EDA) :
+### Impact du niveau d'étude
 
-Quelle est la distribution des revenus selon l'acceptation du prêt ?
+- **Constat :** Le taux d'acceptation est plus élevé chez les clients de niveaux "Graduate" et "Professional/Advanced" .
+- ### Le facteur Revenu & Crédit
 
-Le niveau d'éducation influence-t-il la décision ?
+- **Constat :** Les clients qui acceptent le prêt ont un revenu médian nettement supérieur ($142k) par rapport à ceux qui refusent ($52k).
+- ### Engagement Bancaire (CD Account)
+
+- **Constat :** Bien que peu de clients possèdent un compte de dépôt (CD Account), une grande majorité de ces détenteurs ont accepté le prêt.
 
 Visualisation : Utilisation de Seaborn et Matplotlib pour identifier les corrélations.
 
@@ -81,4 +86,6 @@ Librairies : Pandas (Traitement), Seaborn/Matplotlib (Visualisation).
 💡 Résultats & Recommandations
 Facteurs d'influence : Le Revenu annuel et le Niveau d'étude sont les deux prédicteurs les plus puissants.
 
-Recommandation Business : Focaliser les campagnes sur les clients ayant un revenu > $100k et un niveau d'étude "Graduate" ou "Professional".
+1. **Ciblage Prioritaire :** Focaliser les efforts sur les clients ayant un revenu annuel > $100k et un niveau d'étude supérieur.
+2. **Simplification :** Ignorer les critères "Âge" et "Expérience" car ils n'ont montré aucune corrélation significative avec l'achat du produit.
+3. **Cross-selling :** Proposer le prêt en priorité aux détenteurs de comptes CD (Taux de succès quasi garanti).

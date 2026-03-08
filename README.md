@@ -50,12 +50,6 @@ Dictionnaire des variables
 🛠️ Défis Techniques & Solutions :
 <br>
 <br>
-Nettoyage des données incohérentes
-<br>
-Le défi : La colonne Experience contient des valeurs négatives, ce qui est physiquement impossible.
-Ma solution : remplacement par la valeur par 0 plutôt que de supprimer la lignes, afin de conserver la taille de l'échantillon.
-<br>
-<br>
 ⚙️ Étapes de l'Analyse 
 Nettoyage (Data Cleaning) :
 

@@ -59,7 +59,7 @@ Vérifier les valeurs manquantes.
 - **Vérification des types :** Conversion des variables catégorielles (`Education`) pour faciliter l'analyse.
 
 Analyse Exploratoire (EDA) :
-### Impact du niveau d'étude
+  ### Impact du niveau d'étude
 
 - **Constat :** Le taux d'acceptation est plus élevé chez les clients de niveaux "Graduate" et "Professional/Advanced" .
 - ### Le facteur Revenu & Crédit
